@@ -1,0 +1,20 @@
+{
+    "name": "drdre4life2/custom-command",
+    "type": "library",
+    "description": "This package extends the native Laravel make command to create custom classes such as actions, DTOs, services, and more.",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Drdre4life2\\CustomCommand\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dare Adewuyi",
+            "email": "drdre4life2001@yahoo.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {}
+}
