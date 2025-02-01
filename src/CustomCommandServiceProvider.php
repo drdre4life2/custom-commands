@@ -4,6 +4,7 @@ namespace Drdre4life2\CustomCommand;
 use Illuminate\Support\ServiceProvider;
 use Drdre4life2\CustomCommand\Commands\CreateActionCommand;
 use Drdre4life2\CustomCommand\Commands\CreateDTOCommand;
+use Drdre4life2\CustomCommand\Commands\CreateServiceCommand;
 
 class CustomCommandServiceProvider extends ServiceProvider
 {
@@ -11,13 +12,10 @@ class CustomCommandServiceProvider extends ServiceProvider
     {
         $this->commands([
             CreateActionCommand::class,
-            CreateDTOCommand::class
+            CreateDTOCommand::class,
+            CreateServiceCommand::class
 
         ]);
     }
 
-    public function boot()
-    {
-        // Additional boot logic if needed
-    }
 }
