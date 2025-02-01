@@ -18,6 +18,12 @@
     "prefer-stable": true,
         "require": {
             "php": "^8.1"
-
+        },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Drdre4life2\\CustomCommand\\CustomCommandServiceProvider"
+            ]
         }
+    }
 }
